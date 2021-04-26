@@ -57,7 +57,7 @@ const navigation = () => {
     testname.innerHTML=`<h5 >${users[slide].testname}</h5>`;
 
    
-        // slideLength[id].style.backgroundColor = 'green' 
+        // slideLength[id].style.backgroundColor = '#3E38BACC;' 
    
     slide++; 
 }
