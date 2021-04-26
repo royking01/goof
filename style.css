@@ -68,8 +68,8 @@
 }
 .exodus p {
   /* position: absolute;
-
-  text-transform: uppercase; */
+*/
+  text-transform: uppercase; 
   color: #00dbff;
   /* top: 264px;
   left: 563px;
@@ -101,7 +101,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+
   width: 408px;
   height: 97px;
   background: #ffffff1a 0% 0% no-repeat padding-box;
@@ -110,6 +110,7 @@
   opacity: 1;
   align-items: center;
   margin: auto;
+  margin-top: 100px;
 }
 .leveticus .image {
   width: 77px;
@@ -380,73 +381,12 @@ footer li {
 }
 
 /* TABLET */
-@media only screen and (max-width: 600px) {
-  .whole{
-    padding: 0;
-  }
-  .exodus p {
-    position: absolute;
-    text-transform: uppercase;
-    color: #00dbff;
-    top: 264px;
-    left: auto;
-  }
-  .exodus h1 {
-    position: absolute;
-    top: 308px;
-    left: auto;
-  }
-  /* .leveticus {
-    position: absolute;
-    top: 488px;
-    left: 310px;
-    width: 408px;
-    height: 97px;
-    background: #ffffff1a 0% 0% no-repeat padding-box;
-    border: 1px solid #ffffff1a;
-    border-radius: 41px;
-    opacity: 1;
-    align-items: center;
-} */
-.secondary{
-  height: auto;
 
-}
-.exodus p {
-  position: relative;
-}
-.exodus h1 {
-  position: relative;
-}
-.leveticus {
-  position: relative;
-
-}
-.tub{
-  margin: 0;
-}
-.third .row{
-  margin-top: 10px;
-  justify-content: center;
-}
-.fifth .row {
-  box-sizing: border-box;
-  padding: 100px 0;
-}
-.leveticus {
-  position: absolute;
-  top: 222px;
-  left: 25px;
-  width: 320px;
-  height: 80px;
-}
-.leveticus .image {
-  width: 50px;
-  height: 50px;
-}
-}
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 1025px) {
+  .whole{
+    padding: 0%;
+  }
   .main {
     /* background: none; */
     height: 50vh;
@@ -490,18 +430,16 @@ footer li {
 .exodus h1 {
   position: relative;
   display: none;
-/* }
+}
 .leveticus {
-  position: absolute;
-  top: 222px;
-  left: 25px;
+margin: auto;
   width: 320px;
   height: 80px;
 }
 .leveticus .image {
   width: 50px;
   height: 50px;
-} */
+}
 
   /* SECOND */
 }
@@ -634,5 +572,18 @@ margin: auto;
   footer li{
     margin: 20px;
     font-size: small;
+  }
+}
+/*  BIG SCREENS  */
+@media only screen and (min-width: 1700px) {
+  .whole{
+    overflow: hidden;
+  }
+  .main {
+    width: 100vw;
+    height: 100vh;
+  }
+  .exodus{
+    margin-top: 400px;
   }
 }
