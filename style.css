@@ -293,7 +293,7 @@
 .fifth img {
   width: 243px;
   height: 243px;
-  border-radius: 25%;
+  border-radius: 15%;
   z-index: 1;
 }
 .fifth .col {
@@ -312,12 +312,12 @@
 .top {
   position: relative;
   top: -100px;
-  right: -50px;
+  right: -70px;
 }
 .bottom {
   position: relative;
   bottom: -100px;
-  left: -50px;
+  left: -70px;
 }
 #slide{
   display: flex;
@@ -514,41 +514,25 @@ margin: auto;
     margin: auto;
     align-items: center;
   }
-  .fifth .row{
-    padding: 0;
-  }
-  .fifth img{
-  width: 150px;
-  height: 150px;
-  border-radius: 25%;
-  z-index: 1;
-  }
   
-.fifth .arrow{
-  display: none;
-}
-#slide{
-  /* margin-top: -55px; */
-}
-  .fifth .row .col{
-    width: 100vw;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+    .fifth .row {
+      padding: 100px 0px;
+  
   }
+
   .back-shade{
     width: 100px;
     height: 100px;
   }
-  .top{
+  .top {
     position: relative;
-    top: -70px;
-    right: -50px;
+    top: -100px;
+    right: -70px;
   }
-   .bottom{
+  .bottom {
     position: relative;
-    right: -50px;
-    bottom:-70px
+    bottom: -100px;
+    left: -70px;
   }
   /* SIXTH */
   .sixth{
@@ -573,7 +557,58 @@ margin: auto;
     margin: 20px;
     font-size: small;
   }
-}
+
+  @media screen and (max-width: 750px) { 
+    .fifth {
+      /* margin-top: 10px; */
+      text-align: center;
+      width: 100vw;
+      margin: auto;
+      padding: 0;
+      display: flex;
+      margin: 50px 0;
+      flex-direction: column;
+      /* height: 950px; */
+      justify-content: center;
+      margin: auto;
+      align-items: center;
+    }
+    
+  
+    .back-shade{
+      width: 100px;
+      height: 100px;
+    }
+    .top{
+      position: relative;
+      top: -70px;
+      right: -50px;
+    }
+     .bottom{
+      position: relative;
+      right: -50px;
+      bottom:-70px
+    }
+    .fifth img{
+      width: 150px;
+      height: 150px;
+      border-radius: 25%;
+      z-index: 1;
+      }
+      
+    .fifth .arrow{
+      display: none;
+    }
+    #slide{
+      /* margin-top: -55px; */
+    }
+      .fifth .row .col{
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+      }
+  }
 /*  BIG SCREENS  */
 @media only screen and (min-width: 1700px) {
   .whole{
