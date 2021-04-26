@@ -496,9 +496,10 @@ footer li {
     align-items: center;
   }
   .third .row{
-    margin-top: 0;
+    margin-top: 10px;
+  justify-content: center;
   } 
-  .third .row .col{
+  /* .third .row .col{
     margin: 0px 23.5px;    
   }
   .third .row p{
@@ -507,7 +508,7 @@ footer li {
   .third .col img{
     width: 80%;
     height: 80%;
-  }
+  } */
   /* FOURTH */
   .fourth{
     /* height: 100vh; */
@@ -552,7 +553,7 @@ footer li {
   display: none;
 }
 #slide{
-  margin-top: -70px;
+  margin-top: -55px;
 }
   .fifth .row .col{
     width: 100vw;
