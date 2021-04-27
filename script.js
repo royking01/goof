@@ -46,6 +46,7 @@ let arr = slideLength
 let id = users.id 
 // arr.push(slideLength)
 let imge ='./assets/Mask Group 3/3.png'
+image.src = `${users[slide].image}`
 const navigation = () => {
     if(slide > users.length-1){
         slide =0;
