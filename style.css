@@ -309,6 +309,9 @@
   width: 377px;
   height: 197px;
 }
+.mtitle{
+  font-weight:500 ;
+}
 .top {
   position: relative;
   top: -100px;
@@ -601,6 +604,9 @@ margin: auto;
     }
     #slide{
       /* margin-top: -55px; */
+    }
+    .mtitle{
+
     }
       .fifth .row .col{
         width: 100vw;
