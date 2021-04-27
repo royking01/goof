@@ -192,7 +192,7 @@
     var(--unnamed-font-family-segoe-ui);
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: center;
-  font: normal normal normal 24px/32px Segoe UI;
+  font: normal normal normal 24px/32px;
   letter-spacing: 0px;
   color: #474747;
   opacity: 1;
